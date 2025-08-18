@@ -1,7 +1,4 @@
 #include <limits.h> 
-	int parent[MAX];
-
-	for (int i = 1; i <= n; i++) {
 		distance[i] = INFINITY;
 		parent[i] = -1;
 	}
